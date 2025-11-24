@@ -15,8 +15,8 @@ const home = () => {
   const inputRef = useRef<HTMLInputElement>(null)
   const [error, setError] = useState<string>('')
 
-  const url = ' https://yttrend-server-2.onrender.com/search'
-  const resultsUrl = ' https://yttrend-server-2.onrender.com/results'
+  const url = 'https://yttrend-server.onrender.com/search'
+  const resultsUrl = 'https://yttrend-server.onrender.com/results'
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
